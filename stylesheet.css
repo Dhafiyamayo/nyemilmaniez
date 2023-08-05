@@ -2,3 +2,16 @@
   font-size: 2em;
   color: rgb(255, 251, 242);
 }
+
+a {
+color: aliceblue;
+}
+
+a:visited {
+  color:lightgray;
+}
+
+a:hover, a:active{
+  color:#eee;
+}
+
