@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en" data-bs-theme="light">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     >
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
-    <head>
+  </head>
       <body>
           <header>
             <h1 class="judul">Selamat Datang di Nyemilmaniez Dessert Shop</h1>
@@ -24,24 +24,39 @@
             </p>
             <nav>
               <ul>
-                <li><a href="#Listkue">List Kue Kering</a></li>
-                <li><a href="#informasipemesanan">Informasi pemesanan</a></li>
-                <li><a href="#caraorder">Cara Order</a></li>
+                <li><a href="/#Listkue">Home</a></li>
               </ul>
             </nav>
             </header>
-    </head>
             <hr>
-            <article id="pesan-langsung.html">
+            <main>
+            <article id="pesanlangsung.html">
+              <section>
+                <section id="caraorder">
+                  <h3>Pesan lewat WA kami:</h3>
+                  <p>
+                    <strong
+                      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                        href="tel:+6281352521874"
+                        target="_blank"
+                        >081352521874</a
+                      ></strong
+                    >
+                  </p>
+                  <p>Alamat kami:</p>
+                  <address>
+                    Jl. KH. Wahid Hasyim II. Perum. Sempaja Lestari Indah RT.13
+                  </address>
+                </section>
+                <hr>
+              <section>
                 <h3>Atau bisa langsung pesan di sini</h3>
-                  <p>Langsung tulis di bawah ini ya:)</p>
           
-                
                   <form action="https://httpbin.org/get" method="get">
                     <fieldset>
                       <legend>Kotak Pemesanan</legend>
                       <p>
-                          <label for="namaPemesan">Nama pemesanan:</label>
+                          <label for="namaPemesan">Nama pemesan:</label>
                           <input type="text" name="namaPemesan" id="namaPemesan" placeholder="Dhafiya" autocomplete="on" required>
                       </p>
                  
@@ -66,21 +81,28 @@
                    <br>
           
                    <fieldset>
-                    <legend>Apa kue favoritmu?</legend>
+                    <legend>Apakah dibuat sebagai hampers?</legend>
                     <p>
-                      <input type="radio" name="kue favorit" id="kastengel" value="kastengel">
-                      <label for="kastengel">kastengel</label>
+                      <input type="radio" name="kue favorit" id="ya" value="ya">
+                      <label for="ya">Ya</label>
                     </p>
                     <p>
-                      <input type="radio" name="kue favorit" id="Oatmeal" value="Oatmeal">
-                      <label for="Oatmeal">oatmeal</label>
-                    </p>
-                    <p>
-                      <input type="radio" name="kue favorit" id="saguKeju" value="saguKeju">
-                      <label for="saguKeju">Sagu Keju</label>
+                      <input type="radio" name="kue favorit" id="tidak" value="tidak">
+                      <label for="tidak">Tidak</label>
                     </p>
                    </fieldset>
                    <br>
+                   <fieldset>
+                    <legend>COD atau kurir?</legend>
+                    <p>
+                      <input type="radio" name="pengantaran" id="COD" value="COD">
+                      <label for="COD">COD di toko</label>
+                    </p>
+                    <p>
+                      <input type="radio" name="pengantaran" id="kurir" value="kurir">
+                      <label for="kurir">Kurir</label>
+                    </p>
+                   </fieldset>
                    <fieldset>
                     <legend>Sudah berap kali kamu beli di Nyemilmaniez_smd?</legend>
                     <p>
@@ -97,19 +119,31 @@
                     </p>
                    </fieldset>
                    <fieldset>
-                    <legend>Kirim masukan dan saranmu di sini!</legend>
+                    <legend>Deskripsi </legend>
                     <p>
-                      <label for="message">Kirimkan di sini</label>
+                      <label for="message">Detailkan pesananmu di sini</label>
                       <br>
                       <textarea name="message" id="message" cols="30" rows="10"
-                      placeholder="Tulis masukan dan saranmu di sini..."></textarea>
+                      placeholder="contoh: kue kastangel 1"></textarea>
                     </p>
                    </fieldset>
                    <br>
                    <button type="submit">Kirim</button>
                    <button type="reset">ulang</button>
-                  </form>
-          
+            </section>
+          </form>
               </article>
+              <hr>
+              <footer>
+                <p>
+                  Copyright <a href="https://www.instagram.com/nyemilmaniez_smd/" target="_blank"
+                  >Nyemilmaniez_smd</a>
+                </p>
+                <p>
+                  <br>
+                  <a href="#">Back to Top</a>
+                </p>
+              </footer>
+            </main>
         </body>
         </html>

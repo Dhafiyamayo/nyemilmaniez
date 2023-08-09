@@ -1,18 +1,18 @@
 .judul {
   font-size: 2em;
-  color: rgb(255, 251, 242);
+  color: rgb(0, 0, 0);
 }
 
 a {
-color: aliceblue;
+color: rgb(167, 74, 13);
 }
 
 a:visited {
-  color:lightgray;
+  color:rgb(244, 116, 143);
 }
 
 a:hover, a:active{
-  color:#eee;
+  color:#000000;
 }
 
 body {
