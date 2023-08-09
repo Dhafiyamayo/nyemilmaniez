@@ -27,6 +27,7 @@
           <li><a href="#Listkue">List Kue Kering</a></li>
           <li><a href="#informasipemesanan">Informasi pemesanan</a></li>
           <li><a href="#caraorder">Cara Order</a></li>
+          <li><a href="#contactme">Pesan langsung</a></li>
         </ul>
       </nav>
       </header>
@@ -101,6 +102,86 @@
         Jl. KH. Wahid Hasyim II. Perum. Sempaja Lestari Indah RT.13
       </address>
     </section>
+    <hr>
+    <article id="contactme">
+      <h3>Atau bisa langsung pesan di sini</h3>
+        <p>Langsung tulis di bawah ini ya:)</p>
+
+      
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Kotak Pemesanan</legend>
+            <p>
+                <label for="namaPemesan">Nama pemesanan:</label>
+                <input type="text" name="namaPemesan" id="namaPemesan" placeholder="Dhafiya" autocomplete="on" required>
+            </p>
+       
+            <p>
+                <label for="nomorHp">Nomor HP:</label>
+                <input type="tel" name="nomorHp" id="nomorHp" placeholder="0813-5417-7505" autocomplete="on" required>
+            </p>
+            <p>
+              <label for="jenisKue">Jenis Kue:</label>
+              <select name="jenisKue" id="jenisKue" multiple size="6">
+                <optgroup label="Populer">
+                  <option value="Putri Salju">Putri Salju</option>
+                  <option value="Kastengel">Kastengel</option>
+                  <option value="Oatmeal" selected>oatmeal</option>
+                </optgroup>
+                  <option value="Palmsugar">Palm Sugar</option>
+                  <option value="saguKeju">Sagu Keju</option>
+                  <option value="Nastar">Nastar</option>
+              </select>
+            </p>
+         </fieldset>
+         <br>
+
+         <fieldset>
+          <legend>Apa kue favoritmu?</legend>
+          <p>
+            <input type="radio" name="kue favorit" id="kastengel" value="kastengel">
+            <label for="kastengel">kastengel</label>
+          </p>
+          <p>
+            <input type="radio" name="kue favorit" id="Oatmeal" value="Oatmeal">
+            <label for="Oatmeal">oatmeal</label>
+          </p>
+          <p>
+            <input type="radio" name="kue favorit" id="saguKeju" value="saguKeju">
+            <label for="saguKeju">Sagu Keju</label>
+          </p>
+         </fieldset>
+         <br>
+         <fieldset>
+          <legend>Sudah berap kali kamu beli di Nyemilmaniez_smd?</legend>
+          <p>
+            <input type="checkbox" name="beli" id="pertamakali" value="pertamakali">
+            <label for="pertamakali">Pertama kali</label>
+          </p>
+          <p>
+            <input type="checkbox" name="beli" id="satukali" value="satukali">
+            <label for="satukali">Beberapa kali</label>
+          </p>
+          <p>
+            <input type="checkbox" name="beli" id="sering" value="sering">
+            <label for="sering">sering</label>
+          </p>
+         </fieldset>
+         <fieldset>
+          <legend>Kirim masukan dan saranmu di sini!</legend>
+          <p>
+            <label for="message">Kirimkan di sini</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10"
+            placeholder="Tulis masukan dan saranmu di sini..."></textarea>
+          </p>
+         </fieldset>
+         <br>
+         <button type="submit">Kirim</button>
+         <button type="reset">ulang</button>
+        </form>
+
+    </article>
     <hr>
     <section>
     <h4>Frequently Ask Questions (FAQs)</h4>
