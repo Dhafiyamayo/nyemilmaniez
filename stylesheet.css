@@ -54,8 +54,8 @@ nav ul {
   font-style: normal;
 }
 
-nav li {
-  border-bottom: 1px solid black;
+li a {
+  display: block;
 }
 
 
