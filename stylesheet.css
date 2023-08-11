@@ -22,6 +22,12 @@ a:visited {
   color:rgb(167, 74, 13);
 }
 
+.navlist a:hover{
+background-color: white;
+display: block;
+border-radius: 0.5rem;
+}
+
 a:hover, a:active{
   color:#000000;
 }
@@ -37,25 +43,32 @@ body {
 
 nav {
   margin: 0 auto 1 rem;
-  max-width: 600px;
-  font-size: 1rem;
+  max-width: auto;
+  font-size: 1.2rem;
 border: 2px solid black;
-border-radius: 1em;
+border-radius: 0.5em;
 color: rgb(100, 51, 59);
 background-color: burlywood;
 line-height: 2em;
-padding-top: 1em;
+padding: 0 10em 0 0
+margin: 20em 20em 30em 0 
 }
 
 nav ul {
   list-style-type: none;
   text-align: center;
-  list-style-position: inside;
   font-style: normal;
 }
 
-li a {
+.navlist a{
+  text-decoration: none;
   display: block;
 }
+
+.navlist li {
+  border-bottom: 1px solid black;
+  display: block;
+}
+
 
 
