@@ -151,6 +151,25 @@ nav li {
 .columns {/* 
   column-count: 3;
   column-width: 250px; */
-  columns: 4 250px;
-  column-rule: 3px solid black;
+  columns: 2 250px;
+  column-rule: 4px solid black;
+  column-gap: 2rem;
+}
+
+.columns p {
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  text-align: justify;
+}
+
+.columns h2 {
+  font-weight: bold;
+  font-style: italic;
+  background-color: grey;
+  padding: 0.5rem;
+  color: white;
+  margin-left: 10px;
+  break-inside: avoid;
+  break-before: column;
 }
