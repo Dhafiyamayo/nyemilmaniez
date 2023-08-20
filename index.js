@@ -8,8 +8,18 @@ window.alert("PERINGATAN WEB ANDA DIBLOKIR PEMERINTAH") */
     bisa tidak ya saya istiqomah huhuhu. apakah belajar coding dan jadi web programmer adalah jalan yang tepat untukku? :"""??"
 */
 
-let age;
-age = 22;
+let firstName = "Bintang" //strings
+let age = 22; //numbers
+let student = false; //booleans
 
-console.log(age); 
+age = age + 4
+
+console. log ("Hello", firstName);
+console.log("you are", age, "right?"); 
+console.log ("are you a student of Mulawarman University?:", student);
+
+document.getElementById("tes1").innerHTML = "Hello" + firstName;
+document.getElementById("tes2").innerHTML = "you are" + age + " right?";
+document.getElementById("tes3").innerHTML = "are you a student of Mulawarman University?:" + student
+
 
