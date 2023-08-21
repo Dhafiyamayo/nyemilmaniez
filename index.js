@@ -22,4 +22,5 @@ document.getElementById("tes1").innerHTML = "Hello" + firstName;
 document.getElementById("tes2").innerHTML = "you are" + age + " right?";
 document.getElementById("tes3").innerHTML = "are you a student of Mulawarman University?:" + student
 
-
+let username = window.prompt("Isi nama data diri kamu di sini!");
+console.log(username);
