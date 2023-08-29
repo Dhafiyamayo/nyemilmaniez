@@ -57,7 +57,7 @@ console.log(x, typeof x)
 console.log(y, typeof y)
 console.log(z, typeof z)
 */
-
+/* 
 let a
 let b
 let c
@@ -72,41 +72,8 @@ document.getElementById("CalculateButton").oneclick = function(){
 
     c = Math.sqrt(Math.pow(a,2) + Math.pow(b, 2))
 
-    document.getElementById("sideC").innerHTML = "side C:" + c
+    document.getElementById("sideC").innerHTML = "side C:" + c;
 
-}
+} */
 
-let playGame = confirm("Let's play gunting, batu, dan kertas with me!");
-if (playGame) {
-    let playerChoice = prompt("Pilih gunting, batu, atau kertas?");
-    if (playerChoice) {
-    let playerOne = playerChoice.trim().toLowerCase();
-    if (
-        playerOne === "gunting" ||
-        playerOne === "batu" ||
-        playerOne === "kertas"
-    ) {
-    let computerChoice = (Math.floor(Math.random()) * 3 + 1);
-    let computer = 
-        computerChoice === 1
-        ? "gunting"
-        : computerChoice === 2
-        ? "batu"
-        : "kertas";
-
-    let result =
-        playerOne === computer
-        ? "Seri!"
-        : playerOne === "batu" && computer === "kertas"
-        ? `kamu: ${playerOne}\ncomputer: ${computer}\nComputer menang!`
-        : playerOne === "kertas" && computer === "gunting"
-        ? `kamu: ${playerOne}\ncomputer: ${computer}\nComputer menang!`
-        : `kamu: ${playerOne}\ncomputer: ${computer}\nkamu menang!`;
-    
-        alert(result);
-        let playAgain = confirm("Ingin bermain lagi?");
-        playAgain ? location.reload() : alert("Oke, terima kasih sudah bermain ya!");
-    }
-} else {
-confirm("Okedeh, dadah");
-}}
+/* \ */
